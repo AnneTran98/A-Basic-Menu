@@ -1,0 +1,200 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*PAGE 1*/
+body {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  align-items: center;
+  color: whitesmoke;
+  background-image: url('./img/body-background.jpg');
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  letter-spacing: 1px;
+}
+
+#page1 {
+  background: url('./img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  box-shadow: 8px 8px 7px black;
+  padding: 9vh 0;
+  text-align: center;
+  position: relative;
+}
+
+#anne {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: gray;
+  position: absolute;
+  bottom: 10px;
+  left: 40%;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Nunito', sans-serif;
+  border: 7px whitesmoke;
+  border-style: double;
+  margin: 100px 20px 40px 20px;
+  border-radius: 8px;
+}
+
+header img {
+  width: 70%;
+  display: block;
+  padding-top: 20px;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.established {
+  font-style: italic;
+}
+
+
+/*PAGE 2*/
+#page2 {
+  background: url('./img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  flex: 1;
+  box-shadow: 8px 8px 7px black;
+  font-family: 'Alike Angular', serif;
+  font-size: 20px;
+  padding: 16px 20px;
+}
+
+hr {
+  height: 3px;
+  background-color: whitesmoke;
+  border: none;
+  margin: 20px 0;
+  
+}
+
+#page2 h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  text-decoration: wavy;
+}
+
+.menu1, .menu2, .menu3 {
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu1 img {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 40%;
+  height: 40%;
+  flex: 1;
+}
+
+.menu1 section {
+  text-align: left;
+  margin-right: 40px;
+  flex: 2;
+  margin-left: -50px;
+}
+
+.menu2 img {
+  margin: 50px 50px 20px 0;
+  width: 25%;
+  height: 25%;
+}
+
+.menu2 h2 {
+  padding-top: 10px;
+}
+
+.menu2 section {
+  text-align: left;
+  flex: 2;
+  margin-left: 20px;
+}
+
+.menu2 .price {
+  margin-left: -40px;
+}
+
+.menu3 img {
+  width: 30%;
+  height: 30%;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.menu3 section {
+  text-align: left;
+  flex: 2;
+  margin: 50px 40px 10px 30px;
+}
+
+
+.item p {
+  display: inline-block;
+  margin: 5px auto;
+  font-size: 20px;
+}
+
+.flavor, .beverage, .dessert {
+  text-align: left;
+  width: 75%;
+  text-indent: 10px;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+.menu2 .price {
+  text-align: left;
+}
+
+
+/*FOOTER*/
+footer {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+/*MEDIA*/
+@media (max-width: 850px) {
+  body {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 920px) {
+  #page1 {
+    padding: 18vh 0;
+  }
+}
